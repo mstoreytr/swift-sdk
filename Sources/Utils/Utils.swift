@@ -39,6 +39,8 @@ class Utils {
         return "macOS"
         #elseif os(watchOS)
         return "watchOS"
+        #elseif os(visionOS)
+        return "visionOS"
         #else
         return "Other"
         #endif
@@ -74,6 +76,8 @@ class Utils {
         return "PC"
         #elseif os(watchOS)
         return "Watch"
+        #elseif os(visionOS)
+        return "Headset"
         #else
         return "Other"
         #endif
